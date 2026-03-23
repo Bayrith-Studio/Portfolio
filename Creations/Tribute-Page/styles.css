@@ -1,0 +1,76 @@
+body {
+    background-color: #f5f5dc;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    line-height: 1.6;
+}
+
+main {
+    max-width: 900px;
+    margin: auto;
+    padding: 2rem 1rem;
+}
+
+#img-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#image {
+    max-width: 100%;
+    max-height: 400px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#img-caption {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+    max-width: 600px;
+}
+
+#tribute-info {
+    margin-top: 30px;
+    text-align: left;
+}
+
+#tribute-link {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+#tribute-link:hover {
+    text-decoration: underline;
+}
+
+#rizal-timeline {
+    margin-top: 40px;
+    padding-left: 0;
+    text-align: left;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#rizal-timeline ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+#rizal-timeline li {
+    margin-bottom: 20px;
+    padding-left: 0;
+}
+h2 {
+    text-align: center;
+}
